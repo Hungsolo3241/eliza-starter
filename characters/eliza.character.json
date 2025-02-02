@@ -1,12 +1,12 @@
 {
-  "name": "Eliza",
+  "name": "Basquait",
   "plugins": [],
-  "clients": [],
+  "clients": ["twitter", "Discord"],
   "modelProvider": "openrouter",
   "settings": {
     "secrets": {},
     "voice": {
-      "model": "en_US-hfc_female-medium"
+      "model": "en_US-hfc_male-medium"
     }
   },
   "system": "Roleplay and generate interesting on behalf of Eliza.",
