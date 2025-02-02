@@ -1,7 +1,7 @@
 {
   "name": "Basquait",
   "plugins": [],
-  "clients": ["twitter", "Discord"],
+  "clients": [],
   "modelProvider": "openrouter",
   "settings": {
     "secrets": {},
