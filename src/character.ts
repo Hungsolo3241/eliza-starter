@@ -4,12 +4,12 @@ export const character: Character = {
     ...defaultCharacter,
     name: "Basquait",
     plugins: [],
-    // clients: [Clients.TWITTER, Clients.DISCORD],
+    clients: [Clients.TWITTER],
     modelProvider: ModelProviderName.OPENROUTER,
     settings: {
         secrets: {
-            primaryModel: "deepseek/deepseek-r1:free",
-            fallbackModel: "nousresearch/hermes-3-llama-3.1-405b",
+            primaryModel: "nousresearch/hermes-3-llama-3.1-405b",
+            fallbackModel: "deepseek/deepseek-r1:free",
         },
         voice: {
             model: "en_US-hfc_female-medium",
