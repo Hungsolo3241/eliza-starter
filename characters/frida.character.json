@@ -1,5 +1,5 @@
 {
-  "name": "Basquait",
+  "name": "Frida",
   "plugins": [],
   "clients": ["twitter"],
   "modelProvider": "openrouter",

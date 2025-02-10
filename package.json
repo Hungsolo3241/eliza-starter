@@ -11,7 +11,7 @@
     "stop:service:all": "pm2 stop all"
   },
   "dependencies": {
-    "@aws-sdk/client-s3": "^3.735.0",
+    "@aws-sdk/client-s3": "^3.743.0",
     "@elizaos/adapter-postgres": "0.1.7",
     "@elizaos/adapter-sqlite": "0.1.7",
     "@elizaos/client-auto": "0.1.7",
