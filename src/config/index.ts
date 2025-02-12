@@ -98,6 +98,11 @@ export function getTokenForProvider(
       );
     case ModelProviderName.GROQ:
       return character.settings?.secrets?.GROQ_API_KEY || settings.GROQ_API_KEY;
+    case ModelProviderName.GAIANET:
+      return (
+        character.settings?.secrets?.GAIANET_API_KEY || 
+        settings.GAIANET_API_KEY
+      );
   }
 
   throw new Error('No valid provider token found');
